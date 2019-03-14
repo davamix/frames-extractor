@@ -41,6 +41,8 @@ if success:
 
     # Progress bar
     for i in tqdm(range(total_frames)):
+        # If you don't want to use the progress bar, remove the "for" above
+        # and change this "if..else" by a "while success"
         if success:
             if current_frame >= skipped_frame:
                 cv2.imwrite("frame%d.jpg" % current_frame, image)  # save frame as JPEG file
