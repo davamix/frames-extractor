@@ -2,7 +2,13 @@
 
 # https://stackoverflow.com/a/33399711/844372
 
-# python extractor.py video_file.mp4 --frames 10
+# Usage:
+
+# To extract frames: 
+# python extractor.py --frames 10 video_file.mp4
+
+# To show information: 
+# python extractor.py --info video_file.mp4
 
 import cv2
 import argparse
