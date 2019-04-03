@@ -7,8 +7,12 @@ This is useful when you want to take a lot of pictures to feed your ML model. Th
 ## Usage
 To extract the 75% of frames:
 
-`python extractor.py video_file.mp4 --frames 75`
+`python extractor.py --frames 75 video_file.mp4 `
 
 To extract all frames from the video:
 
 `python extractor.py video_file.mp4`
+
+To get basic information about the video:
+
+`python extractor.py --info video_file.mp4`
